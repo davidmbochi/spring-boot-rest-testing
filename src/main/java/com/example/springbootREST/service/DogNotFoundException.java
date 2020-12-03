@@ -8,7 +8,8 @@ public class DogNotFoundException extends RuntimeException{
     public DogNotFoundException(){
 
     }
-    public DogNotFoundException(String message){
+    public DogNotFoundException(String message,Long invalidDogId){
         super(message);
+
     }
 }
